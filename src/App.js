@@ -4,13 +4,14 @@ import './App.css';
 
 const App = () => {
   const viewer = useRef(null);
-
+  
+//path that points to the pdf storage location. change to url to test 
   // if using a class, equivalent of componentDidMount 
   useEffect(() => {
     WebViewer(
       {
         path: '/webviewer/lib',
-        initialDoc: '/files/the_white_mans_burden.pdf',
+        initialDoc: 'files/vcc.pdf',
       },
       viewer.current,
     ).then((instance) => {
