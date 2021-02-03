@@ -37,7 +37,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className="header">React sample</div>
+      <div className="header">Cloud Pdf</div>
       <div className="webviewer" ref={viewer}></div>
     </div>
   );
