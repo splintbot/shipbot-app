@@ -1,4 +1,4 @@
-      jobs:
+   jobs:
   install-node-example:
     docker:
       - image: 'cimg/base:stable'
